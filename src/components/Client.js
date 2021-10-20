@@ -19,7 +19,7 @@ const Client = ({ changeMenu }) => {
             disabled={!clientName}
             className="btn btn-primary "
             type="submit"
-            onClick={() => changeMenu(clientName)}
+            onClick={() => changeMenu(clientName.toLowerCase())}
           >
             Search
           </button>
